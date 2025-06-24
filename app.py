@@ -62,7 +62,8 @@ def tickets():
             "issue": request.form['issue'],
             "status": "Open",
             "created": datetime.now().strftime('%Y-%m-%d %H:%M'),
-            "priority": priority
+            "priority": priority,
+            "assigned": "Unassigned"
         }
 
         tickets.append(new_ticket)
@@ -80,6 +81,7 @@ def tickets():
             or query in t['issue'].lower()
             or query in t['status'].lower()
             or query in t.get('priority', '').lower()
+            or query in t.get('assigned', '').lower()
         ]
 
     return render_template('tickets.html', tickets=tickets, search=query, success=success)
@@ -92,6 +94,26 @@ def close_ticket(ticket_id):
             t['status'] = 'Closed'
     save_tickets(tickets)
     return redirect(url_for('tickets'))
+
+@app.route('/tickets/edit/<ticket_id>', methods=['GET', 'POST'])
+def edit_ticket(ticket_id):
+    tickets = load_tickets()
+    ticket = next((t for t in tickets if t['id'] == ticket_id), None)
+
+    if not ticket:
+        return "Ticket not found", 404
+
+    fake_users = ['Alex Smith', 'Jamie Lee', 'Taylor Brown', 'Jordan Rivera']
+
+    if request.method == 'POST':
+        ticket['priority'] = request.form['priority']
+        ticket['issue'] = request.form['issue']
+        ticket['assigned'] = request.form['assigned']
+        ticket['status'] = request.form['status']
+        save_tickets(tickets)
+        return redirect(url_for('tickets'))
+
+    return render_template('edit_ticket.html', ticket=ticket, users=fake_users)
 
 @app.route('/azure')
 def azure():
