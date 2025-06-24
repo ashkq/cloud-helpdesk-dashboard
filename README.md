@@ -15,7 +15,7 @@ A professional-grade Flask web application simulating a real-world IT helpdesk d
 > Users can submit issues with auto-prioritization (High, Medium, Low)
 
 <p align="center">
-  <img src="tickets.png" alt="Tickets Page" width="600"/>
+  <img src="tickets.PNG" alt="Tickets Page" width="600"/>
 </p>
 
 ---
@@ -24,7 +24,7 @@ A professional-grade Flask web application simulating a real-world IT helpdesk d
 > Real-time count of total, open, closed, and priority-level tickets
 
 <p align="center">
-  <img src="dashboard.png" alt="Dashboard Summary" width="600"/>
+  <img src="dashboard.PNG" alt="Dashboard Summary" width="600"/>
 </p>
 
 ---
@@ -33,7 +33,7 @@ A professional-grade Flask web application simulating a real-world IT helpdesk d
 > Simulates status of cloud-based resources like VMs and storage accounts
 
 <p align="center">
-  <img src="azure.png" alt="Azure Monitor" width="600"/>
+  <img src="azure.PNG" alt="Azure Monitor" width="600"/>
 </p>
 
 ---
