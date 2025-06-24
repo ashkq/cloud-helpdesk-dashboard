@@ -4,11 +4,6 @@ A professional-grade Flask web application simulating a real-world IT helpdesk d
 
 ---
 
-## 🌐 Live Demo
-**Try it here:** [Live Demo](https://23d7b100-e489-40f0-b5fa-359ab9d273fc-00-uox435g21oi3.worf.replit.dev/)
-
----
-
 ## 📸 Screenshots
 
 ### 📝 Ticketing System
