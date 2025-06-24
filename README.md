@@ -33,6 +33,15 @@ A professional-grade Flask web application simulating a real-world IT helpdesk d
 
 ---
 
+### 🤖 Helpie – AI Chatbot
+> Friendly AI assistant for basic IT troubleshooting and guidance
+
+<p align="center">
+  <img src="ai.PNG" alt="Helpie Chatbot" width="600"/>
+</p>
+
+---
+
 ## ⚙️ Features
 
 - 🎫 Submit and manage tickets with live status and priority tags
@@ -41,8 +50,8 @@ A professional-grade Flask web application simulating a real-world IT helpdesk d
 - 🧠 Auto-classification using keyword-based logic
 - 📊 Dashboard view with real-time counts
 - ☁️ Azure panel simulating virtual machine and storage status
+- 🤖 **Helpie AI Chatbot**: Handles common IT issues using natural language
 - ✅ Bootstrap 5 responsive design with styled alerts and badges
-- 🛡️ Deployed to Replit for public access
 
 ---
 
