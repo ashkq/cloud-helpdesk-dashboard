@@ -41,6 +41,8 @@ A professional-grade Flask web application simulating a real-world IT helpdesk d
 ## ⚙️ Features
 
 - 🎫 Submit and manage tickets with live status and priority tags
+- ✏️ **Edit existing tickets**: Update priority, add internal helpdesk comments, or reassign status
+- 👥 **Assign tickets to fake helpdesk users** for demo purposes
 - 🧠 Auto-classification using keyword-based logic
 - 📊 Dashboard view with real-time counts
 - ☁️ Azure panel simulating virtual machine and storage status
