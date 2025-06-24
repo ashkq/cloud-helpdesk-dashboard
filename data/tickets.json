@@ -1,0 +1,41 @@
+[
+    {
+        "id": "58672dd2",
+        "name": "Jalen Brown",
+        "issue": "I am having printer issues, my document won't get sent to the printer.",
+        "status": "Open",
+        "created": "2025-06-23 19:29"
+    },
+    {
+        "id": "cc459fa2",
+        "name": "Michael Jackson",
+        "issue": "Network is down",
+        "status": "Open",
+        "created": "2025-06-23 19:39",
+        "priority": "High"
+    },
+    {
+        "id": "eb548f09",
+        "name": "Jalen Brown",
+        "issue": "Printer jam",
+        "status": "Open",
+        "created": "2025-06-23 19:39",
+        "priority": "Medium"
+    },
+    {
+        "id": "5ff754e6",
+        "name": "Michael Jackson",
+        "issue": "General Help",
+        "status": "Open",
+        "created": "2025-06-23 19:39",
+        "priority": "Low"
+    },
+    {
+        "id": "0e4a02d7",
+        "name": "Anthony Davis",
+        "issue": "Hello, I have a problem with my login, I cannot seem to remember my password!",
+        "status": "Open",
+        "created": "2025-06-23 20:58",
+        "priority": "Medium"
+    }
+]

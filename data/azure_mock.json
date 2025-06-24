@@ -1,0 +1,10 @@
+{
+  "VMs": [
+    {"name": "WebServer-01", "status": "Running"},
+    {"name": "SQL-DB-01", "status": "Stopped"}
+  ],
+  "Storage": [
+    {"name": "logs-storage", "status": "Available"},
+    {"name": "backup-container", "status": "Unavailable"}
+  ]
+}

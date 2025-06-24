@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Azure Resource Monitor</h2>
+
+<h4>Virtual Machines</h4>
+<ul class="list-group mb-4">
+    {% for vm in azure.VMs %}
+    <li class="list-group-item">{{ vm.name }} — <strong>{{ vm.status }}</strong></li>
+    {% endfor %}
+</ul>
+
+<h4>Storage Accounts</h4>
+<ul class="list-group">
+    {% for s in azure.Storage %}
+    <li class="list-group-item">{{ s.name }} — <strong>{{ s.status }}</strong></li>
+    {% endfor %}
+</ul>
+{% endblock %}
