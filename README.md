@@ -1,6 +1,6 @@
 # Cloud Helpdesk Dashboard 💻☁️
 
-A professional-grade Flask web application simulating a real-world IT helpdesk dashboard. Designed to support ticket submissions, live dashboard summaries, and a mock Azure resource monitor — ideal for recruiters and interviewers evaluating practical IT or cloud admin skills.
+A professional-grade Flask web application simulating a real-world IT helpdesk dashboard. Designed to support and edit ticket submissions, display live dashboard summaries, and a mock Azure resource monitor.
 
 ---
 
