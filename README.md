@@ -38,13 +38,6 @@ A professional-grade Flask web application simulating a real-world IT helpdesk d
 
 ---
 
-### ☁️ Azure Monitor (Mocked)
-> Simulates status of cloud-based resources like VMs and storage accounts
-
-![Azure Monitor](azure.png)
-
----
-
 ## ⚙️ Features
 
 - 🎫 Submit and manage tickets with live status and priority tags
