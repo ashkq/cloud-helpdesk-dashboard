@@ -5,7 +5,7 @@ A professional-grade Flask web application simulating a real-world IT helpdesk d
 ---
 
 ## 🌐 Live Demo
-**Try it here:** [https://cloud-helpdesk-dashboard.onrender.com](https://cloud-helpdesk-dashboard.onrender.com)
+**Try it here:** [https://your-replit-app-url](https://your-replit-app-url)
 
 ---
 
@@ -47,7 +47,7 @@ A professional-grade Flask web application simulating a real-world IT helpdesk d
 - 📊 Dashboard view with real-time counts
 - ☁️ Azure panel simulating virtual machine and storage status
 - ✅ Bootstrap 5 responsive design with styled alerts and badges
-- 🛡️ Deployed to Render for public access
+- 🛡️ Deployed to Replit for public access
 
 ---
 
@@ -57,7 +57,7 @@ A professional-grade Flask web application simulating a real-world IT helpdesk d
 - HTML, CSS, Bootstrap 5
 - JSON (for local ticket and cloud resource data)
 - Git & GitHub
-- Render (deployment platform)
+- Replit (deployment platform)
 
 ---
 
