@@ -14,21 +14,34 @@ A professional-grade Flask web application simulating a real-world IT helpdesk d
 ### 📝 Ticketing System
 > Users can submit issues with auto-prioritization (High, Medium, Low)
 
-![Tickets Page](screenshots/tickets.png)
+<p align="center">
+  <img src="tickets.png" alt="Tickets Page" width="600"/>
+</p>
 
 ---
 
 ### 📊 Dashboard Summary
 > Real-time count of total, open, closed, and priority-level tickets
 
-![Dashboard Summary](screenshots/dashboard.png)
+<p align="center">
+  <img src="dashboard.png" alt="Dashboard Summary" width="600"/>
+</p>
 
 ---
 
 ### ☁️ Azure Monitor (Mocked)
 > Simulates status of cloud-based resources like VMs and storage accounts
 
-![Azure Monitor](screenshots/azure.png)
+<p align="center">
+  <img src="azure.png" alt="Azure Monitor" width="600"/>
+</p>
+
+---
+
+### ☁️ Azure Monitor (Mocked)
+> Simulates status of cloud-based resources like VMs and storage accounts
+
+![Azure Monitor](azure.png)
 
 ---
 
